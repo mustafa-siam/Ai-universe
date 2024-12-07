@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ai universe hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="m-8">
+    <header class="flex flex-col justify-center items-center gap-8 mb-6">
+        <h1 class="text-4xl font-semibold"> AI Universe Hub</h1>
+    </header>
+    <main>
+        <section id="ai-container" class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
+           
+        </section>
+        <div id="see-more" class="flex justify-center p-16">
+          <button onclick="handlesee()" class="btn btn-active bg-[#EB5757]">See more</button>
+        </div>
+        <section>
+            <!-- You can open the modal using ID.showModal() method -->
+<!-- <dialog id="show_modal" class="modal">
+  <div class="modal-box">
+    <form method="dialog">
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+    </form>
+    <div id="see-container" class="flex justify-between items-center gap-5">
+
+    </div>
+  </div>
+</dialog> -->
+<!-- You can open the modal using ID.showModal() method -->
+<dialog id="show_modal" class="modal">
+  <div class="modal-box w-full max-w-[70%]">
+    <form method="dialog">
+        <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+      </form>
+      <div id="see-container" class="grid lg:grid-cols-2 grid-cols-1 gap-5">
+  
+      </div>
+  </div>
+</dialog>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
